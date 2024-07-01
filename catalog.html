@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog - The Book Nook</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+            text-align: center;
+        }
+        header nav a {
+            color: antiquewhite;
+            margin: 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .book-catalog {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .book {
+            width: 30;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color:black;
+            color: aliceblue;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer a {
+            color: aliceblue;
+            margin-top: auto;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Book Catalog</h1>
+        <div class="book-catalog">
+            <div class="book">
+                <img src="image one .png.jfif" alt="picture" height="360">
+                <h2>A good girl's guide to murder</h2>
+                <p>Holly Jackson</p>
+                <a href="#">More Details</a>
+            </div>
+            <div class="book">
+                <img src="image two.png.jfif" alt="picture" height="360">
+                <h2>You were gone</h2>
+                <p>Tim Weaver</p>
+                <a href="#">More Details</a>
+            </div>
+            <div class="book">
+                <img src="image three.png.jfif" alt="picture" height="360">
+                <h2>It ends with us</h2>
+                <p>Colleen Hoover</p>
+                <a href="#">More Details</a>
+            </div>
+        </div>
+   </main>
+            <footer>
+                <p>Follow us on:</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </footer>
+</body>
+</html>
